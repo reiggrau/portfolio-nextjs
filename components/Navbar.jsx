@@ -7,7 +7,7 @@ import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 // Assets
-import logo from "/public/assets/logoRG.png";
+// import logo from "/public/assets/logoRG.png";
 
 // Component
 export default function Navbar() {
@@ -20,7 +20,10 @@ export default function Navbar() {
     return (
         <div className="fixed w-full h-20 bg-[#ecf0f3] shadow-xl z-[100]">
             <div className="flex justify-between items-center w-full h-full px-2 2xl:px-16">
-                <Image src={logo} alt="/" width="auto" height="50" />
+                {/* <Image src={logo} alt="/" width="auto" height="50" /> */}
+                <div>
+                    <h1>RG</h1>
+                </div>
                 <div>
                     <ul className="hidden md:flex">
                         <Link href="/">
@@ -48,7 +51,10 @@ export default function Navbar() {
                 <div className={nav ? "fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-[#ecf0f3] p-10 ease-in duration-500" : "fixed left-[-100%] top-0 p-10 ease-in duration-500"}>
                     <div>
                         <div className="flex w-full items-center justify-between">
-                            <Image src={logo} alt="/" width="auto" height="50" />
+                            {/* <Image src={logo} alt="/" width="auto" height="50" /> */}
+                            <div>
+                                <h1>RG</h1>
+                            </div>
                             <div onClick={toggleNav} className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer">
                                 <AiOutlineClose />
                             </div>
