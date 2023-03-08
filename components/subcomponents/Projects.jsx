@@ -6,12 +6,14 @@ import Link from "next/link";
 import tribesImg from "./../../public/assets/projects/tribes.jpg";
 import imageboardImg from "./../../public/assets/projects/imageboard.jpg";
 import petitionImg from "./../../public/assets/projects/petition.jpeg";
+import connect4Img from "./../../public/assets/projects/connect4.png";
 
 export default function Projects() {
     const projectsArr = [
         { name: "TRIBES", description: "A prehistory-themed browser game & lobby", stack: "React, Redux, PostgreSQL", picture: tribesImg },
         { name: "imageBoard", description: "A minimalistic photo-sharing web app", stack: "Vue, Nuxt, Firestore", picture: imageboardImg },
         { name: "No One at the Wheel", description: "A satirical petition board & social media", stack: "jQuery, Handlebars, PostgreSQL", picture: petitionImg },
+        { name: "Connect4", description: "A 'connect 4' videogame", stack: "jQuery", picture: connect4Img },
     ];
 
     return (
