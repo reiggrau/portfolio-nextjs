@@ -17,8 +17,8 @@ export default function Projects() {
     ];
 
     return (
-        <div className="w-full">
-            <div className="max-w-[1240px] mx-auto px-2 py-16">
+        <div id="projects" className="w-full">
+            <div className="max-w-[1240px] mx-auto px-2 pt-24">
                 <p className="uppercase text-xl tracking-widest text-[#376299]">Projects</p>
                 <h2 className="py-4">What I've Built</h2>
                 <div className="grid md:grid-cols-2 gap-8">

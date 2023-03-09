@@ -5,7 +5,7 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 export default function Intro() {
     return (
-        <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center text-center">
+        <div id="home" className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center text-center pt-24">
             <div>
                 <p className="uppercase text-sm tracking-widest text-gray-600">sample motto</p>
                 <h1 className="py-4 text-gray-700">
