@@ -9,7 +9,7 @@ export default function Intro() {
             <div>
                 <p className="uppercase text-sm tracking-widest text-gray-600">sample motto</p>
                 <h1 className="py-4 text-gray-700">
-                    Hi, I'm <span className="text-[#4e88d4]">Will</span>
+                    Hi, I'm <span className="text-[#4e88d4]">Guillem</span>
                 </h1>
                 <h1 className="py-4 text-gray-700">A Full-Stack Web Developer</h1>
                 <p className="py-4 text-gray-600 max-w-[70%] m-auto">

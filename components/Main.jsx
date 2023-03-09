@@ -5,6 +5,7 @@ import Intro from "./subcomponents/Intro.jsx";
 import About from "./subcomponents/About.jsx";
 import Skills from "./subcomponents/Skills.jsx";
 import Projects from "./subcomponents/Projects.jsx";
+import Contact from "./subcomponents/Contact.jsx";
 
 export default function Main() {
     return (
@@ -13,6 +14,7 @@ export default function Main() {
             <About />
             <Skills />
             <Projects />
+            <Contact />
         </div>
     );
 }
