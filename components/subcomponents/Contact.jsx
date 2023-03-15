@@ -78,7 +78,7 @@ export default function Contact() {
                 </div>
             </div>
             <div className="flex justify-center py-8">
-                <Link href="/">
+                <Link href="/#home" scroll={false}>
                     <HiOutlineChevronDoubleUp size={30} />
                 </Link>
             </div>
